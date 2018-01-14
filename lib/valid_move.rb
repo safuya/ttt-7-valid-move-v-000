@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  return true
+  return inbounds?(index) && !position_taken?(board, index)
 end
 
 def position_taken?(board, index)
