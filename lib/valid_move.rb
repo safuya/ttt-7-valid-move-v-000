@@ -7,5 +7,5 @@ def position_taken?(board, index)
 end
 
 def inbounds?(index)
-  return index >= 0 and < 9
+  return index >= 0 && index < 9
 end
